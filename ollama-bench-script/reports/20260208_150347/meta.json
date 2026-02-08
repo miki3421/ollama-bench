@@ -1,0 +1,12 @@
+{
+  "ts": "20260208_150347",
+  "endpoint": "http://ollama:11434/api/chat",
+  "docker_network": "nuvolaris-ollama",
+  "bench_model": "bestia/tiny:1b",
+  "analysis_model": "bestia/small:3b",
+  "vegeta": {
+    "rate": "2/s",
+    "duration": "6s",
+    "timeout": "180s"
+  }
+}
